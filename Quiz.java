@@ -16,7 +16,7 @@ public class Quiz {
 		// create a new student
 		Student student = new Student("Julius");
  System.out.println(student.getName());
-						int totalScore = 0;
+		int totalScore = 0;
 		int maxScore = 0;
  		// create a new quiz for the student
 		Quiz quiz1 = new Quiz(1, student, 10, 10);
